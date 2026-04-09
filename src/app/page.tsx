@@ -1,4 +1,4 @@
-```tsx
+tsx
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
@@ -658,7 +658,6 @@ export default function GIEAFormation() {
 
   return null;
 }
-```
 
   return null;
 }
