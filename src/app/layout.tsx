@@ -1,6 +1,3 @@
-
-
-tsx
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -9,10 +6,14 @@ export const metadata: Metadata = {
   description: "Plateforme de formation commerciale GIEA Paris 16",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    
-      {children}
-    
+    <html lang="fr">
+      <body>{children}</body>
+    </html>
   );
 }
